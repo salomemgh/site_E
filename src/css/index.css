@@ -1,0 +1,122 @@
+.signup_button {
+    width: 25%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ed87ba;
+    color: white;
+}
+
+.login_button {
+    width: 180px;
+    height: 40px;
+    border: none;
+    background-color: #ed87ba;
+    color: white;
+    border-radius: 10px;
+}
+
+.links {
+    width: 100%;
+    height: 300px;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    text-align: end;
+    background-color: #dc7cac;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+
+header{
+    position: sticky !important;
+    top: 0;
+    z-index: 100;
+}
+
+.Carousel_text {
+    text-align: center;
+}
+
+.div_style {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+}
+
+.scroll_box {
+    margin-top: 700px;
+}
+
+.scroll-box2 {
+    position: relative;
+    z-index: 2;
+    background-color: white;
+}
+
+.const_dashbord {
+    background-color: rgb(181, 76, 125);
+    position: relative;
+    top: -99px;
+    height: 100%;
+
+}
+.button_detail{
+    width: 200px;
+    height: 200px;
+    text-decoration: none;
+    color: rgb(227, 214, 214);
+    border: none;
+    margin-top: 10px;
+}
+.button_dt{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ca4e8c;
+    margin-bottom: 20px;
+}
+.title1{
+    color: red;
+}
+.description1{
+    color: #c5126c;
+    
+}
+.col_design{
+    background-color: #ed87ba;
+    color: rgb(230, 225, 225);
+}
+.addBlogBtn2{
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ed87ba;
+    color: white;
+}
+.slide{
+    color: white;
+}
+.button_add{
+    width: 120px;
+    height: 30px;
+    border: none;
+    background-color: #ca4e8c;
+    color: white;
+    border-radius: 30px;
+}
+.testi{
+
+    background-color: #dc7cac;
+
+}
+.border{
+    border-color: pink !important;
+    color: pink;
+}
