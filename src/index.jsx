@@ -15,11 +15,11 @@ function App() {
     return(
         <BrowserRouter>
                 <Routes>
-                    <Route path="/" element={<Dashbord />}></Route>
+                    <Route path="/" element={<Login />}></Route>
                     <Route path="/Signup" element={<Signup />} />
-                    <Route path="/Login" element={<Login />}></Route>
+                    <Route index path="/Login" element={<Login />}></Route>
                     <Route path="/Details/:id" element={<Details />}></Route>
-                    <Route index path="/dashbord" element={<Dashbord />}></Route> 
+                    <Route path="/dashbord" element={<Dashbord />}></Route> 
                     <Route path="/AddBlog" element={<AddBlog />}></Route>
                 </Routes>
         </BrowserRouter>

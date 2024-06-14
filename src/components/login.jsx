@@ -14,12 +14,15 @@ function Login() {
             email : email,
             password : password
         }).then(function(response){
-            console.log(response)
             navigate("/dashbord")
         }).catch(function(error){
-            console.log(error)
+            window.alert(error)
         })
     };
+
+    const Signup = () => {
+        navigate ("/signup");
+    }
 
     return(
         <Fragment>
@@ -46,17 +49,17 @@ function Login() {
                     </div>
                 </div>
 
-                <div className="d-flex gap-3">
-                    <div className=" row">
-                        <div className="col-md-4">
-                            <button type="submit" className="login_button"> Forgot Password? </button> 
-                        </div>
+                <div className="row">
+                    <div className="col-md-4">
+                        <button type="submit" className="login_button" onClick={Log}> Login </button>
                     </div>
                 </div>
 
-                <div className="row mt-4">
-                    <div className="col-md-4">
-                        <button type="submit" className="login_button" onClick={Log}> Login </button>
+                <div className="d-flex gap-3">
+                    <div className="row mt-3">
+                        <div className="col-md-4">
+                            <button type="submit" className="login_button" onClick={Signup}> Sign up </button> 
+                        </div>
                     </div>
                 </div>
 

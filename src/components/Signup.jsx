@@ -1,6 +1,7 @@
 import React, { Fragment, useState } from "react";
 import axios from "axios";
 import Nav from "./Navbar";
+import { useNavigate } from "react-router";
 
 
 function Signup () {
@@ -8,6 +9,8 @@ function Signup () {
     const [fullname, setFullname] = useState([]);
     const [emailinput, setEmailinput] = useState([]);
     const [passwordinput, setPasswordinput] = useState([]);
+    
+    const navigate = useNavigate(); //new es exla chavamate
 
     const registracia = () => {
         axios.post("https://apitest.reachstar.io/signup",{
@@ -15,9 +18,10 @@ function Signup () {
             email : emailinput,
             password : passwordinput
         }).then(function(response){
-            console.log(response)
+            // console.log(response)
+            navigate("/") //NEW es exla chavamate 
         }).catch(function(error){
-            console.log(error)
+            window.alert(error)
         })
     };
 

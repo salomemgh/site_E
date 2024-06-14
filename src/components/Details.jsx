@@ -144,7 +144,7 @@ function Details() {
                         <div className="commentBox w-100">
                             <ReactQuill
                             theme="snow"
-                            className="editor-comment"
+                            className="editor_comment"
                             value={comment}
                             onChange={setComment}
                             />
@@ -162,7 +162,7 @@ function Details() {
                             {findComment.comments.map((comment) => (
                                 <div className="pt-5" key={comment.comment_id}>
                                 <a className="userId" dangerouslySetInnerHTML={{ __html: comment.user_id }}></a>
-                                <div className="mt-2 p-2 position-relative" style={{ border: "solid 1px #333333" }}>
+                                <div className="mt-2 p-2 position-relative" style={{ border: "solid 1px #ccc" }}>
                                     <p className="commentGet" dangerouslySetInnerHTML={{ __html: comment.comment }}></p>
                                     <button className="deleteComent" onClick={() => deleteComment(comment.id)}>Delete</button>
                                 </div>

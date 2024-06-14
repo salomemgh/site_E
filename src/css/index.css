@@ -120,3 +120,42 @@ header{
     border-color: pink !important;
     color: pink;
 }
+.editbtn{
+    width: 150px;
+    height: 40px;
+    margin-left: 20px;
+    border: none;
+    background-color: #dc7cac;
+    color: white;
+    border-radius: 20px;
+}
+.commentbtn{
+    margin-top: 60px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: #dc7cac;
+    color: white;
+    border-radius: 20px;
+}
+.editor_comment{
+    height: 100px;
+}
+.deleteComent{
+    border: none;
+    width: 100px;
+    height: 30px;
+    background-color: #dc7cac;
+    color: white;
+    border-radius: 20px;
+}
+.userId{
+    text-decoration: none;
+    font-size: 13px;
+    color: #ca4e8c;
+}
+.commentsDetails{
+    font-size: 20px;
+    color: #ca4e8c;
+
+}
